@@ -1,0 +1,23 @@
+{
+    "name": "ReportResult",
+    "fields": [
+        {
+            "fieldName": "groupReportId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "reportId",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190708141824",
+    "entityTableName": "report_result",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
