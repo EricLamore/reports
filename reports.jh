@@ -1,0 +1,29 @@
+entity GroupReport {
+	name String,
+    description String,
+    universignOrganizationId String,
+}
+
+entity ReportResult {
+	groupReportId String,
+    reportId String,
+}
+
+
+entity ReportTemplate {
+	groupReportId String,
+    reportId String,
+}
+
+// Set pagination options
+paginate GroupReport, ReportResult, ReportTemplate with pagination
+
+// Use Data Transfert Objects (DTO)
+// dto * with mapstruct
+
+
+// Set service options to all except few
+/**
+*/
+// Set an angular suffix
+//angularSuffix * with mySuffix
