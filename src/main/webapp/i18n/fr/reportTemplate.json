@@ -1,0 +1,23 @@
+{
+  "reportsApp": {
+    "reportTemplate": {
+      "home": {
+        "title": "ReportTemplates",
+        "createLabel": "Créer un nouveau Report Template",
+        "createOrEditLabel": "Créer ou éditer un Report Template",
+        "notFound": "Aucun Report Template trouvé"
+      },
+      "created": "Un nouveau Report Template a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Report Template avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Report Template avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Report Template {{ id }} ?"
+      },
+      "detail": {
+        "title": "Report Template"
+      },
+      "groupReportId": "Group Report Id",
+      "reportId": "Report Id"
+    }
+  }
+}

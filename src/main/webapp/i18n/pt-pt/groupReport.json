@@ -1,0 +1,24 @@
+{
+  "reportsApp": {
+    "groupReport": {
+      "home": {
+        "title": "Group Reports",
+        "createLabel": "Criar um(a) novo(a) Group Report",
+        "createOrEditLabel": "Criar ou editar um(a) Group Report",
+        "notFound": "No Group Report found"
+      },
+      "created": "A new Group Report is created with identifier {{ param }}",
+      "updated": "A Group Report is updated with identifier {{ param }}",
+      "deleted": "A Group Report is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Group Report {{ id }}?"
+      },
+      "detail": {
+        "title": "Group Report"
+      },
+      "name": "Name",
+      "description": "Description",
+      "universignOrganizationId": "Universign Organization Id"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="reportResult">
+            <h2><span jhiTranslate="reportsApp.reportResult.detail.title">Report Result</span> {{reportResult.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="reportsApp.reportResult.groupReportId">Group Report Id</span></dt>
+                <dd>
+                    <span>{{reportResult.groupReportId}}</span>
+                </dd>
+                <dt><span jhiTranslate="reportsApp.reportResult.reportId">Report Id</span></dt>
+                <dd>
+                    <span>{{reportResult.reportId}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/report-result', reportResult.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

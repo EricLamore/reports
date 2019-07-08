@@ -1,0 +1,23 @@
+{
+  "reportsApp": {
+    "reportResult": {
+      "home": {
+        "title": "Report Results",
+        "createLabel": "Crear nuevo Report Result",
+        "createOrEditLabel": "Crear o editar Report Result",
+        "notFound": "No Report Result found"
+      },
+      "created": "Un nuevo Report Result ha sido creado con el identificador {{ param }}",
+      "updated": "Un Report Result ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Report Result ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Report Result {{ id }}?"
+      },
+      "detail": {
+        "title": "Report Result"
+      },
+      "groupReportId": "Group Report Id",
+      "reportId": "Report Id"
+    }
+  }
+}
